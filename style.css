@@ -1,0 +1,156 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body:before{
+	content:"";
+	position:fixed;
+	top:0;
+	dispiay:block;
+	left:0;
+	z-index:-1;
+	width:100%;
+	height:100%;
+  	/*background:url(img/20200211225718.png) center repeat;*/
+	background-size:cover;
+}
+body{
+
+}
+
+li{
+	list-style:none;
+}
+
+.container{ 
+	margin: 0 30px;
+}
+header{
+	z-index: 10;
+	height:72px;
+	width:100%;
+	background-color: rgba(255,255,255,0.7);
+	position:fixed;
+	line-height:70px;
+	display: block;
+}
+.logo{
+	margin-left:30px;
+}
+.header-list{
+	float:right;
+}
+.header-list li{
+	display:inline-block;
+}
+.btn{
+	height:70px;
+	font-size:10px;
+	padding:0px 62px;
+	color:black;
+	font-family:ヒラギノ丸ゴ Pro W4;
+	display:inline-block;
+}
+.btn:hover{
+	background-color:rgb(173, 225, 219,0.2);
+	transition:all 0.3s;
+}
+a{
+	text-decoration:none;
+}
+.space{
+	padding:50px 0;
+}
+.main-logo{
+	text-align:center;
+	margin:65px 0 0 0;
+}
+.main{
+	text-align: center;
+}
+.me{
+	padding: 120px;
+}
+
+.dot{
+	margin: 200px 0;
+	font-size: 24px;
+	color:#ACE1DB;
+}
+
+.contents{
+	margin:0 auto;
+	width:100%;
+	/* padding:0 15px; */
+}
+
+.title{
+	font-family: Chalkduster;
+	font-size: 24px;
+	color: rgb(0, 0, 0);
+	opacity: 0.7;
+	/* border-bottom: 3px dashed rgb(154, 229, 235); */
+	/* background-size: cover; */
+	padding-bottom: 10px ;
+	/* margin: 100px 500px; */
+	padding: 100px;
+}
+
+.sns-list{
+	margin:30px 100px;
+	color:#ffffffcc;
+	padding:10px;
+}
+
+.sns{
+	display:inline-block;
+	width:33%;
+	font-family: Chalkduster;
+	color: #000000;
+	/* position: relative; */
+}
+
+.sns-name{
+	opacity: 0.7;
+	/* position: absolute;
+	top: 80%;
+	left: 40%; */
+	/* /* text-align: center; */
+}
+/* .twitter{
+ 	margin:50px 20px;
+}
+.twitter-timeline{
+	background-color:#ACE1DB;
+	border-radius:20px;
+	/*margin:50px 50px;
+} */
+
+
+.item-box{
+	font-family: HanziPen TC;	
+	margin: 0 50px;
+	display: inline-block;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+}
+
+.item{
+	margin-bottom: 100px;
+}
+.item a{
+	color: rgb(80, 189, 189);
+}
+
+.item a:hover{
+	opacity: 0.7;
+}
+
+.copy-right{
+	padding: 50px;
+	text-align: center;
+	color: rgb(147, 137, 150);
+}
