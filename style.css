@@ -19,39 +19,54 @@ body{
 
 }
 
-li{
-	list-style:none;
-}
-
 .container{ 
 	margin: 0 30px;
 }
+
 header{
-	z-index: 10;
+	z-index: 1000;
+	align-items: center;
 	height:72px;
 	width:100%;
 	background-color: rgba(255,255,255,0.7);
 	position:fixed;
 	line-height:70px;
-	display: block;
+	display: flex;
 }
-.logo{
-	margin-left:30px;
+
+header .container{
+	margin: 0 15px;
+	max-width: 100%;
+	width: 100%;
 }
-.header-list{
-	float:right;
-}
-.header-list li{
-	display:inline-block;
-}
-.btn{
+
+
+
+li{
+	list-style: none;
 	height:70px;
-	font-size:10px;
-	padding:0px 62px;
-	color:black;
-	font-family:ヒラギノ丸ゴ Pro W4;
-	display:inline-block;
 }
+
+.logo img{
+	margin: 30px;
+	vertical-align: bottom;
+}
+
+.header-menu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: 1;
+}
+
+.btn{
+	padding: 0 30px;
+	display: flex;
+	font-family:ヒラギノ丸ゴ Pro W4;
+	font-size:10px;
+	color:black;
+}
+
 .btn:hover{
 	background-color:rgb(173, 225, 219,0.2);
 	transition:all 0.3s;
@@ -70,7 +85,7 @@ a{
 	text-align: center;
 }
 .me{
-	padding: 120px;
+	padding: 120px 0;
 }
 
 .dot{
@@ -93,22 +108,19 @@ a{
 	/* border-bottom: 3px dashed rgb(154, 229, 235); */
 	/* background-size: cover; */
 	padding-bottom: 10px ;
-	/* margin: 100px 500px; */
 	padding: 100px;
 }
 
 .sns-list{
 	margin:30px 100px;
 	color:#ffffffcc;
-	padding:10px;
+	display: flex;
+	justify-content: space-around;
 }
 
 .sns{
-	display:inline-block;
-	width:33%;
 	font-family: Chalkduster;
 	color: #000000;
-	/* position: relative; */
 }
 
 .sns-name{
@@ -127,15 +139,21 @@ a{
 	/*margin:50px 50px;
 } */
 
+.gallery-items{
+	/* display: flex;
+	justify-content: space-between; */
+}
 
 .item-box{
 	font-family: HanziPen TC;	
 	margin: 0 50px;
-	display: inline-block;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: normal;
 	text-align: left;
+	display: inline-block;
+	/* display: flex;
+	justify-content: space-between; */
 }
 
 .item{
@@ -153,4 +171,18 @@ a{
 	padding: 50px;
 	text-align: center;
 	color: rgb(147, 137, 150);
+}
+
+/*スマホ対応*/
+@media
+ screen and (max-width: 1024px){
+    .main-logo img{
+        width: 70vw;
+    }
+    .btn{
+        padding: 15px;
+    }
+    .header-list{
+        font-size: 20px;
+    }
 }
