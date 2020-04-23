@@ -186,12 +186,17 @@ a{
 
 	.me{
 		font-size: 10px;
+		padding: 70px 0;
+	}
+
+	.space{
+		padding: 30px;
 	}
 
 	.logo img{
-		width: 100px;
-		height: 40px;
-		margin: 10px;
+		width: 90px;
+		height: auto;
+		margin: 5px;
 	}
 
     .main-logo img{
