@@ -19,8 +19,8 @@
 } */
 
 body{
-	font-family:Quicksand-Light;
-
+	font-family:Quicksand;
+	font-weight: 300;
 }
 
 .container{ 
@@ -207,6 +207,7 @@ a{
 		width: 90px;
 		/* height: auto; */
 		margin: 5px;
+		vertical-align: middle;
 	}
 
     .main-logo img{
@@ -220,7 +221,7 @@ a{
 	
 	.item img{
 		width: 70vw;
-		height: 70vw;
+		height: auto;
 	}
 
 	.title{
