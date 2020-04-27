@@ -25,52 +25,45 @@ body{
 
 .container{ 
 	margin: 0 30px;
-	/* max-width: 100%;
-	width: 100%; */
 }
 
 header{
 	z-index: 1000;
-	align-items: center;
-	height:72px;
+	height:70px;
 	width:100%;
 	background-color: rgba(255,255,255,0.7);
 	position:fixed;
-	line-height:70px;
-	display: flex;
-}
-
-header .container{
-	margin: 0 15px;
-	max-width: 100%;
-	width: 100%;
-}
-
-
-
-li{
-	list-style: none;
-	height:70px;
-}
-
-.logo img{
-	/* margin: 30px; */
-	vertical-align: bottom;
 }
 
 .header-menu{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	flex: 1;
+}
+
+header .logo{
+	flex: 300px;
+	height: 70px;
+}
+
+header .logo img{
+	height: 70px;
+	width: auto;
+}
+
+.menu{
+	display: flex;
+	flex: 1.2;
+	line-height: 70px;
 }
 
 .btn{
-	padding: 0 37px;
+	justify-content: center;
 	display: flex;
-	/* font-family: Chalkduster; */
-	/* font-size:13px; */
+	flex: 1;
+	padding: 0 15px;
 	color:rgb(0, 0, 0,0.7);
+	/* font-family: Chalkduster; */
 }
 
 .btn:hover{
@@ -102,20 +95,10 @@ a{
 	color:#ACE1DB;
 }
 
-.contents{
-	margin:0 auto;
-	width:100%;
-	/* padding:0 15px; */
-}
-
 .title{
-	/* font-family: Quicksand-Regular; */
-	/* font-family: Chalkduster; */
 	font-size: 40px;
 	color: rgb(0, 0, 0);
 	opacity: 0.7;
-	/* border-bottom: 3px dashed rgb(154, 229, 235); */
-	/* background-size: cover; */
 	padding-bottom: 10px ;
 	padding: 100px;
 }
@@ -134,10 +117,6 @@ a{
 
 .sns-name{
 	opacity: 0.7;
-	/* position: absolute;
-	top: 80%;
-	left: 40%; */
-	/* /* text-align: center; */
 }
 /* .twitter{
  	margin:50px 20px;
@@ -149,21 +128,16 @@ a{
 } */
 
 .gallery-items{
-	/* display: flex;
-	justify-content: space-between; */
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .item-box{
-	margin: 0 50px;
+	flex: 1;
+	margin: 0 10px;
 	font-size: 18px;
-	font-style: normal;
-	font-weight: normal;
-	text-align: left;
-	display: inline-block;
-	/* font-family: Chalkduster; */
 	color: rgba(0, 0, 0, 0.7);
-	/* display: flex;
-	justify-content: space-between; */
+	justify-content: center;
 }
 
 .item{
@@ -189,10 +163,24 @@ a{
 
 	header{
 		height: 40px;
+		line-height: 40px;
 	}
 
 	.container{
 		margin: 0 5px;
+	}
+
+	.menu{
+		line-height: 40px;
+	}
+
+	header .logo{
+		height: 40px;
+	}
+
+	header .logo img{
+		height: 40px;
+		width: auto;
 	}
 
 	.me{
@@ -204,25 +192,17 @@ a{
 		padding: 30px;
 	}
 
-	.logo img{
-		width: 90px;
-		/* height: auto; */
-		margin: 5px;
-		vertical-align: middle;
-	}
-
     .main-logo img{
 		width: 80vw;
     }
-    .btn{
-        padding: 5px;
-		font-size: 12px;
-		/* font-family: Arial, Helvetica, sans-serif; */
-	}
 	
 	.item img{
 		width: 70vw;
 		height: auto;
+	}
+
+	.btn{
+		font-size: 15px;
 	}
 
 	.title{
@@ -234,6 +214,10 @@ a{
 		width: 25vw;
 		height: auto;
 		margin: 0 5px;
+	}
+
+	.sns-name{
+		font-size: 12px;
 	}
 
 	p{
