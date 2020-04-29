@@ -142,9 +142,52 @@ a{
 
 .item{
 	margin-bottom: 100px;
+	/* background-color: black; */
 }
+
+.item img{
+	position: relative;
+}
+
+.image-cover{
+	/* background-color: rgb(0, 0, 0); */
+	position: absolute;
+	/* width: 100%;
+	height: 400px;
+	max-width: 400px; */
+	z-index: 10;
+	opacity: 0;
+	display: inline-flex;
+	/* justify-content: center; */
+}
+
+.haruusa-business-card .image-cover img{
+	border-radius: 4.1%;
+}
+
+.cover-txt{
+	position: absolute;
+	display: inline-flex;
+	z-index: 11;
+	bottom: 3%;
+	left: 3%;
+	justify-content: center;
+	font-family: ヒラギノ角ゴシック W0;
+	font-size: 13px;
+	text-align: left;
+}
+
+.image-cover:hover{
+	opacity: 0.6;
+	color: white;
+}
+
+.item-box :nth-child(6) .img{
+	border-radius: 10px;
+}
+
 .item a{
-	color: rgb(80, 189, 189);
+	color: white;
 }
 
 .item a:hover{
@@ -194,11 +237,20 @@ a{
 
     .main-logo img{
 		width: 80vw;
-    }
+	}
 	
 	.item img{
 		width: 70vw;
-		height: auto;
+		height: 70vw;
+	}
+	
+	.haruusa-business-card img{
+		width: auto;
+		height: 70vw;
+	}
+
+	.haruusa-business-card .image-cover img{
+		width: 47.3vw;
 	}
 
 	.btn{
