@@ -1,235 +1,168 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+<!DOCTYPE html>
+<html>
 
-*{
-	margin:0px;
-	padding:0px;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>mikaryna ♡ mikaryna</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-/* body:before{
-	content:"";
-	position:fixed;
-	top:0;
-	display:block;
-	left:0;
-	z-index:-1;
-	width:100%;
-	height:100%;
-  	/*background:url(img/20200211225718.png) center repeat;
-	background-size:cover;
-} */
+<body>
+  <header>
+    <div class="header-menu">
+      <div class="logo">
+        <a href="https://mikaryna.com/"><img src="img/mikaryna-logo.png"></a>
+      </div>
+      <div class="menu">
+        <a class="btn" href="#about">about</a>
+        <a class="btn" href="#gallery">gallery</a>
+        <a class="btn" href="#social">sns</a>
+      </div>
+    </div>
+  </header>
+  <div class="main">
+    <div class="container">
+      <div class="space"></div>
+      <div class="main-logo"><img src="img/mikaryna-logo.png" width="70%"></div>
+      <div id="about">
+        <div class="me">
+          大阪在住のお絵かきする人。
+          <br>
+          現在はインフラ周りの技術部で毎日図面を描いています。
+          <br>
+          物心ついた時から絵を描くのが好きで幼い頃に地元の絵画教室に通い絵を勉強。
+          <br>
+          最近はwebデザイナーを目指してプログラミングの勉強、簡単なデザインの提供を開始。
+          <div class="resume">
+            <a href="https://www.resume.id/mikaryna">RESUME</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dot">❤︎　　❤︎　　❤︎</div>
+    <div class="contents">
+      <div class="container">
+        <div id="gallery">
+          <div class="title">
+            gallery
+          </div>
+          <div class="gallery-items">
+            <div class="item-box">
+              <div class="item">
+                <img src="img/oniko.PNG" width="400px" height="400px" alt="ミカリーナのアイコン">
+              </div>
+              <div class="item-txt">
+                <p>my icon
+                  <br>
+                  <a class="twitter-link" href="https://twitter.com/_yushuu">@_yushuu</a>
+                  とのペアアイコンになっています。
+                  <br>使用ツール：clipstudio
+                </p>
+              </div>
+            </div>
+            <div class="item-box">
+              <div class="item">
+                <img src="img/onio.png" width="400px" height="400px" alt="アイコン1">
+              </div>
+              <div class="item-txt">
+                <p><a class="twitter-link" href="https://twitter.com/_yushuu">@_yushuu
+                  </a>　icon & header
+                  <br>ヘッダーはリンクからご覧ください。
+                  <br>使用ツール：clipstudio / 透明水彩
+                </p>
+              </div>
+            </div>
+            <div class="item-box">
+              <div class="item">
+                <img src="img/haruusa.bmp" width="400px" height="400px" alt="アイコン2">
+                <div class="item-txt">
+                  <p><a href="https://twitter.com/_harusa_p">@_harusa_p
+                    </a>　icon
+                    <br>実際の写真を見てご本人様に寄せたイメージで描きました。
+                    <br>使用ツール：clipstudio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item-box">
+              <div class="item">
+                <img src="img/macorin.png" width="400px" height="400px" alt="アイコン3">
+                <div class="item-txt">
+                  <p><a href="https://twitter.com/macololidoll">@macololidoll
+                    </a>　icon
+                    <br>本人様と話し合いながらサイズ感など調整し、仕上げました。
+                    <br>使用ツール：clipstudio
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item-box">
+              <div class="item">
+                <img src="img/pandako-angel.png" width="400px" height="400px" alt="ラインスタンプ">
+              </div>
+              <div class="item-txt">
+                <p>line stamp
+                  <br>詳しくはTwitterをご覧ください。
+                  <br>使用ツール：clipstudio
+                </p>
+              </div>
+            </div>
+            <div class="item-box">
+              <div class="item haruusa-business-card">
+                <img src="img/haruusa-business-card.png" width="auto" height="400px" alt="はるうさぎさんの名刺">
+              </div>
+              <div class="item-txt">
+                <p><a href="https://twitter.com/_harusa_p">@_harusa_p
+                  </a>　Business card
+                  <br>裏面のロゴデザインははるうさぎさん本人。
+                  <br>使用ツール：figma / clipstudio
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dot">❤︎　　❤︎　　❤︎</div>
+      <div class="container">
+        <div class="title" id="social">
+          social networking service
+        </div>
+        <div class="sns-list">
+          <div class="sns">
+            <a href="https://mobile.twitter.com/_mikaryna">
+              <img src="img/20200215181355.png" width="120px" height="120px" alt="Twitter"></a>
+            <div class="sns-name">Twitter</div>
+          </div>
+          <div class="sns">
+            <a href="https://www.instagram.com/04mmmls">
+              <img src="img/20200215180721.png" width="120px" height="120px" alt="instagram"></a>
+            <div class="sns-name">instagram</div>
+          </div>
+          <div class="sns">
+            <a href="https://lin.ee/50FbVvuDr"> <img src="img/20200215191301.png" width="120px" height="120px"
+                alt="line@"></a>
+            <div class="sns-name">LINE</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dot">❤︎　　❤︎　　❤︎</div>
+  </div>
+  <div class="copy-right">Copyright © 2020 mikaryna All Rights Reserved.</div>
 
-body{
-	font-family:Quicksand;
-	font-weight: 300;
-}
 
-.container{ 
-	margin: 0 30px;
-}
 
-header{
-	z-index: 1000;
-	height:70px;
-	width:100%;
-	background-color: rgba(255,255,255,0.7);
-	position:fixed;
-}
+  <!-- <div class="twitter">
+    <a class="twitter-timeline" data-width="300" data-height="500"
+      data-chrome="noheader nofooter noborder noscrollbar transparent"
+      href="https://twitter.com/_mikaryna?ref_src=twsrc%5Etfw">Tweets by _12my_</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div> -->
 
-.header-menu{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
 
-header .logo{
-	flex: 300px;
-	height: 70px;
-}
+  <script src="script.js"></script>
+</body>
 
-header .logo img{
-	height: 70px;
-	width: auto;
-}
-
-.menu{
-	display: flex;
-	flex: 1.2;
-	line-height: 70px;
-}
-
-.btn{
-	justify-content: center;
-	display: flex;
-	flex: 1;
-	padding: 0 15px;
-	color:rgb(0, 0, 0,0.7);
-	/* font-family: Chalkduster; */
-}
-
-.btn:hover{
-	/* background-color:rgb(173, 225, 219,0.2); */
-	color: #63bdb2;
-	transition:all 0.3s;
-}
-a{
-	text-decoration:none;
-}
-.space{
-	padding:50px 0;
-}
-.main-logo{
-	text-align:center;
-	margin:65px 0 0 0;
-}
-.main{
-	text-align: center;
-}
-.me{
-	padding: 120px 0;
-	font-family: 筑紫A丸ゴシック;
-}
-
-.dot{
-	margin: 200px 0;
-	font-size: 24px;
-	color:#ACE1DB;
-}
-
-.title{
-	font-size: 40px;
-	color: rgb(0, 0, 0);
-	opacity: 0.7;
-	padding-bottom: 10px ;
-	padding: 100px;
-}
-
-.sns-list{
-	margin:30px 100px;
-	color:#ffffffcc;
-	display: flex;
-	justify-content: space-around;
-}
-
-.sns{
-	font-family: Chalkduster;
-	color: #000000;
-}
-
-.sns-name{
-	opacity: 0.7;
-}
-/* .twitter{
- 	margin:50px 20px;
-}
-.twitter-timeline{
-	background-color:#ACE1DB;
-	border-radius:20px;
-	/*margin:50px 50px;
-} */
-
-.gallery-items{
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.item-box{
-	flex: 1;
-	margin: 50px 0;
-	font-size: 18px;
-	color: rgba(0, 0, 0, 0.7);
-	justify-content: center;
-}
-
-.item-txt{
-	display: inline-flex;
-	justify-content: center;
-	font-family: ヒラギノ角ゴシック W0;
-	font-size: 13px;
-	padding-bottom: 50px;
-}
-
-.item-txt a{
-	color: cadetblue;
-}
-
-.item-text a:hover{
-	opacity: 0.7;
-}
-
-.copy-right{
-	padding: 50px;
-	text-align: center;
-	color: rgb(147, 137, 150);
-}
-
-/*スマホ対応*/
-@media
- screen and (max-width: 1024px){
-
-	header{
-		height: 40px;
-		line-height: 40px;
-	}
-
-	.container{
-		margin: 0 5px;
-	}
-
-	.menu{
-		line-height: 40px;
-	}
-
-	header .logo{
-		height: 40px;
-	}
-
-	header .logo img{
-		height: 40px;
-		width: auto;
-	}
-
-	.me{
-		font-size: 10px;
-		padding: 70px 0;
-	}
-
-	.space{
-		padding: 30px;
-	}
-
-    .main-logo img{
-		width: 80vw;
-	}
-	
-	.item img{
-		width: 70vw;
-		height: auto;
-	}
-
-	.btn{
-		font-size: 15px;
-	}
-
-	.title{
-		font-size: 18px;
-		padding: 80px 0;
-	}
-
-	.sns img{
-		width: 25vw;
-		height: auto;
-		margin: 0 5px;
-	}
-
-	.sns-name{
-		font-size: 12px;
-	}
-
-	p{
-		font-size:  12px;
-	}
-	
-	.item-box{
-		margin: 0;
-	}
-}
+</html>
