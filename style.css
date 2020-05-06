@@ -134,63 +134,25 @@ a{
 
 .item-box{
 	flex: 1;
-	margin: 0 10px;
+	margin: 50px 0;
 	font-size: 18px;
 	color: rgba(0, 0, 0, 0.7);
 	justify-content: center;
 }
 
-.item{
-	margin-bottom: 100px;
-	/* background-color: black; */
-}
-
-.item img{
-	position: relative;
-}
-
-.image-cover{
-	/* background-color: rgb(0, 0, 0); */
-	position: absolute;
-	/* width: 100%;
-	height: 400px;
-	max-width: 400px; */
-	z-index: 10;
-	opacity: 0;
+.item-txt{
 	display: inline-flex;
-	/* justify-content: center; */
-}
-
-.haruusa-business-card .image-cover img{
-	border-radius: 4.1%;
-}
-
-.cover-txt{
-	position: absolute;
-	display: inline-flex;
-	z-index: 11;
-	bottom: 3%;
-	left: 3%;
 	justify-content: center;
 	font-family: ヒラギノ角ゴシック W0;
 	font-size: 13px;
-	text-align: left;
+	padding-bottom: 50px;
 }
 
-.image-cover:hover{
-	opacity: 0.6;
-	color: white;
+.item-txt a{
+	color: cadetblue;
 }
 
-.item-box :nth-child(6) .img{
-	border-radius: 10px;
-}
-
-.item a{
-	color: white;
-}
-
-.item a:hover{
+.item-text a:hover{
 	opacity: 0.7;
 }
 
@@ -241,16 +203,7 @@ a{
 	
 	.item img{
 		width: 70vw;
-		height: 70vw;
-	}
-	
-	.haruusa-business-card img{
-		width: auto;
-		height: 70vw;
-	}
-
-	.haruusa-business-card .image-cover img{
-		width: 47.3vw;
+		height: auto;
 	}
 
 	.btn{
